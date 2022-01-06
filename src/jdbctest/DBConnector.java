@@ -123,6 +123,7 @@ public class DBConnector {
                 if (tmp.size() == 0){
                     throw new CustomException("查询无结果");
                 }
+                //asd
                 int row = tmp.size();
                 int col = tmp.get(0).size();
                 result = new Object[row][col];
